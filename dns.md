@@ -16,11 +16,15 @@ $ dig @8.8.8.8 www.google.com
 DNS服务器怎么会知道每个域名的IP地址呢？答案是分级查询。  
 每个域名的尾部都多了一个点。  
 
-比如，域名math.stackexchange.com显示为math.stackexchange.com.。这不是疏忽，而是所有域名的尾部，实际上都有一个根域名。  
+比如，域名math.stackexchange.com显示为math.stackexchange.com.。这不是疏忽，而是所有域名的尾部，实际上都有一个根域名  
+
 举例来说，www.example.com真正的域名是www.example.com.root，简写为www.example.com.。  
-因为，根域名.root对于所有域名都是一样的，所以平时是省略的。
+因为，根域名.root对于所有域名都是一样的，所以平时是省略的。  
+
 根域名的下一级，叫做"顶级域名"（top-level domain，缩写为TLD），比如.com、.net；  
+
 再下一级叫做"次级域名"（second-level domain，缩写为SLD），比如www.example.com里面的.example，这一级域名是用户可以注册的；  
+
 再下一级是主机名（host），比如www.example.com里面的www，又称为"三级域名"，这是用户在自己的域里面为服务器分配的名称，是用户可以任意分配的。  
 
 主机名.次级域名.顶级域名.根域名
