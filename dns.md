@@ -18,7 +18,7 @@ DNS服务器怎么会知道每个域名的IP地址呢？答案是分级查询。
 
 比如，域名math.stackexchange.com显示为math.stackexchange.com.。这不是疏忽，而是所有域名的尾部，实际上都有一个根域名  
 
-举例来说，www.example.com真正的域名是www.example.com.root，简写为www.example.com.。  
+举例来说，www.example.com 真正的域名是 www.example.com.root， 简写为www.example.com.。  
 因为，根域名.root对于所有域名都是一样的，所以平时是省略的。  
 
 根域名的下一级，叫做"顶级域名"（top-level domain，缩写为TLD），比如.com、.net；  
